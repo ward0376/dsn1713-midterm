@@ -2,8 +2,21 @@
 
 /* Set custom variables here */
 
+:root{
+  --bs-primary: #2e483a;
+}
 
+.navbar{
+  background-color: var(--bs-primary);
+}
 
+/* .jumbotron{
+  background-size: cover;
+} */
+
+.hero-image{
+  background-image: url(images/hero-bg-img.png);
+}
 
 
 .navbar-brand {
