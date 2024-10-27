@@ -20,6 +20,22 @@
 
 }
 
+
+.navbar-toggler-icon {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-toggler-icon {
+    display: block;
+  }
+  
+  #navbarSupportedContent {
+    display: none;
+  }
+}
+
+
 .header{
   background-color: var(--bs-primary);
 }
